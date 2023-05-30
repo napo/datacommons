@@ -55,9 +55,9 @@ This lab will enable participants to develop practical skills in creating value 
  - Basic concepts of statistics (not mandatory)
  
 ## Resources
-The Open Data Handbook - http://opendatahandbook.org/
-Nagel L., Lycklama D. (2021): [Design Principles for Data Spaces. Position Paper](https://design-principles-for-data-spaces.org/). Version 1.0. Berlin
-Schrock, Andrew R. "[Civic hacking as data activism and advocacy: A history from publicity to open government data.](https://journals.sagepub.com/doi/abs/10.1177/1461444816629469?journalCode=nmsa)" New media & society 18.4 (2016): 581-599.
-Ermoshina, Ksenia. "[Civic hacking: redefining hacking and civic participation.](http://www.tecnoscienza.net/index.php/tsj/article/view/346)" Tecnoscienza. Italian Journal of Science & Technology Studies 9.1 (2018): 79-101.
-Bounegru, Liliana, and Jonathan Gray. [The Data Journalism Handbook: Towards a Critical Data Practice](https://www.jstor.org/stable/j.ctv1qr6smr). Amsterdam University Press, 2021.
-Tufte, Edward R. Beautiful evidence. Vol. 1. Cheshire, CT: Graphics press, 2006.
+- The Open Data Handbook - http://opendatahandbook.org/
+- Nagel L., Lycklama D. (2021): [Design Principles for Data Spaces. Position Paper](https://design-principles-for-data-spaces.org/). Version 1.0. Berlin
+- Schrock, Andrew R. "[Civic hacking as data activism and advocacy: A history from publicity to open government data.](https://journals.sagepub.com/doi/abs/10.1177/1461444816629469?journalCode=nmsa)" New media & society 18.4 (2016): 581-599.
+- Ermoshina, Ksenia. "[Civic hacking: redefining hacking and civic participation.](http://www.tecnoscienza.net/index.php/tsj/article/view/346)" Tecnoscienza. Italian Journal of Science & Technology Studies 9.1 (2018): 79-101.
+- Bounegru, Liliana, and Jonathan Gray. [The Data Journalism Handbook: Towards a Critical Data Practice](https://www.jstor.org/stable/j.ctv1qr6smr). Amsterdam University Press, 2021.
+- Tufte, Edward R. Beautiful evidence. Vol. 1. Cheshire, CT: Graphics press, 2006.
