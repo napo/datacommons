@@ -125,6 +125,9 @@
 					{ src: '{{ site.reveal_path }}plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: '{{ site.reveal_path }}plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: '{{ site.reveal_path }}plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '{{ site.reveal_path }}plugin/pdfexport/pdfexport.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '{{ site.reveal_path }}plugin/menu/menu.js', async: true, condition: function() { return !!document.body.classList; } }
+
 					{% if site.mermaid_diagrams %}
 					{ src: 'https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js'},
 					{ src: '{{ 'assets/js/mermaid/reveal-js-mermaid-plugin.js' | relative_url }}'},
