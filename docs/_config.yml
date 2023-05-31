@@ -8,7 +8,7 @@ description: Course for the GSSI
 author: Maurizio Napolitano <napolitano@fbk.eu>
 
 # The Reveal theme
-reveal_theme: night.css
+reveal_theme: white.css
 
 # The Reveal transition
 reveal_transition: slide 
@@ -23,7 +23,7 @@ extra_css:
 highlight_style_sheet: 
 
 # Embed Server-side speaker notes?
-reveal_notes_server: true
+reveal_notes_server: false
 
 # Additional reveal.js options
 reveal_options: 
