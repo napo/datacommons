@@ -23,7 +23,7 @@ extra_css:
 highlight_style_sheet: 
 
 # Embed Server-side speaker notes?
-reveal_notes_server: false
+reveal_notes_server: true
 
 # Additional reveal.js options
 reveal_options: 
