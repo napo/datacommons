@@ -1,4 +1,10 @@
 ---
-layout: reveal
-title: not used. Use _config.yml!
+layout: presentation
 ---
+
+{% for post in site.posts reversed %}
+<section data-markdown>
+		{{ post.content }}
+  </section>
+{% endfor %}
+

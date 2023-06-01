@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.html %}
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			{{ content }}
+		</div>
+	</div>
+	{% include script.html %}
+    <a class="fork-reveal" href="https://github.com/denehyg/reveal.js-menu">
+		<img
+		  style="position: absolute; top: 0; left: 0; border: 0;max-width: 5%"
+	  src="{{ 'images/logo_gssi.svg' | relative_url }}"
+		  alt="Fork reveal.js-menu on GitHub"
+		/>
+	  </a>
+		  <a class="fork-reveal" href="https://github.com/denehyg/reveal.js-menu">
+		<img
+		  style="position: absolute; top: 0; right: 0; border: 0;max-width: 5%"
+		  src="{{ 'images/logo_fbk.svg' | relative_url }}"
+		  alt="Fork reveal.js-menu on GitHub"
+		/>
+	  </a>
+	</body>
+  </html>
+

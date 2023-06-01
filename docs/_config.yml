@@ -1,17 +1,17 @@
 # Your presentation title
-title:  Data as Commons
+title: Data as Commons
 
 # Your presentation description (optional)
-description: Course for the GSSI 
+description: A framework for easily creating beautiful presentations using HTML
 
 # Your name (optional)
-author: Maurizio Napolitano <napolitano@fbk.eu>
+author: Maurizio Napolitano 
 
 # The Reveal theme
 reveal_theme: white.css
 
 # The Reveal transition
-reveal_transition: slide 
+reveal_transition: default
 
 # Path to the used theme (defaults to the Reveal.js standard theme path)
 reveal_theme_path: reveal.js/css/theme/ 
@@ -48,3 +48,4 @@ exclude:
 markdown: kramdown
 highlighter: rouge
 markdown_ext: ignoreme
+

@@ -1,0 +1,43 @@
+<script src="{{ site.reveal_path }}js/reveal.js"></script>
+<script src="{{ site.reveal_path }}plugin/markdown/markdown.js"></script>
+<script src="{{ site.reveal_path }}plugin/notes/notes.js"></script>
+<script src="{{ site.reveal_path }}plugin/search/search.js"></script>
+<script src="{{ site.reveal_path }}plugin/zoom/zoom.js"></script>
+<script src="{{ site.reveal_path }}plugin/menu/menu.js"></script>
+<script src="{{ site.reveal_path }}plugin/highlight/highlight.js"></script>
+<script src="{{ site.reveal_path }}plugin/chalkboard/plugin.js"></script>
+<script src="{{ site.reveal_path }}plugin/animate/plugin.js"></script>
+<script src="{{ site.reveal_path }}plugin/verticator/verticator.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@1.1.0/plugin/mermaid/mermaid.js"></script>
+
+<!-- reveal.js init -->
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    center: true,
+    hash: true,
+    slideNumber: 'c',
+
+    plugins: [ RevealMarkdown, RevealMenu, RevealHighlight, 
+              RevealChalkboard, RevealNotes, RevealSearch,
+              RevealZoom, RevealAnimate, Verticator, RevealMermaid],
+    menu: {
+      numbers: 'c',
+      openSlideNumber: true,
+      themes: true,
+      themesPath: '{{ site.reveal_theme_path }}',
+      transitions: true
+    },
+    chalkboard: { 
+      toggleChalkboardButton: { left: "80px" },
+      toggleNotesButton: { left: "130px" },
+      colorButtons: 5
+    }
+  });
+
+  toggleMenu = () => {
+    let menu = Reveal.getPlugin('menu');
+    if (menu) menu.toggle();
+  };
+</script>
