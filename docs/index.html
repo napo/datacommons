@@ -1,10 +1,14 @@
 ---
 layout: presentation
 ---
-
-{% for post in site.posts reversed %}
-<section data-markdown>
-		{{ post.content }}
-  </section>
-{% endfor %}
+      {% for post in site.posts reversed %}
+        {% if post.slidestyle == "page" %}
+        {% assign slidestyle = 'data-markdown' %}
+        {% else %}
+        {% assign slidestyle = '' %}
+        {% endif %}
+        <section>
+          {{ post.content }}
+        </section>
+      {% endfor %}
 
