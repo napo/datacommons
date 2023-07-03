@@ -6,10 +6,10 @@ slidestyle: "page"
 <p>
 The course is structured in 4 modules:
 <ul>
-<li>Open Data</li>
-<li>Dataspace</li>
-<li>Civic Hacking</li>
-<li>Data Visualization Laboratory</li>
+<li>Open Data <small><a href="slides/01 - Data as Commons - Open Data.pdf">slide</a></small></li>
+<li>Dataspace <small><a href="slides/02 - Data as Commons - Data Spaces.pdf">slide/</a></small></li>
+<li>Civic Hacking <small><a href="slides/03 - Data as Commons - Civic Hacking.pdf">slide/</a></small></li>
+<li>Data Visualization Laboratory <small><a href="slides/04 - Data as Commons - Data Visualization.pdf">slide</a></small></li>
 </ul
 </p>
 <p>
